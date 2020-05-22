@@ -2,5 +2,5 @@
 import time
 
 print ("Start : %s" % time.ctime())
-time.sleep( 600 )
+time.sleep( 120 )
 print ("End : %s" % time.ctime())
