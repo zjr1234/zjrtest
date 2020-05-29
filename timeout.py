@@ -17,6 +17,8 @@ class TimeoutTest:
         print("Start to sleep ... ")
         time.sleep(sleepTime)
         self.current_time()
+        sleepTime = self.current_time() + 10
+        print(sleepTime)
 
 
 if __name__ == '__main__':
