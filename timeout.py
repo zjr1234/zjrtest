@@ -13,12 +13,11 @@ class TimeoutTest:
 
     def sleep(self):
         self.current_time()
-        sleepTime = self.timeout + 5
+        sleepTime = self.timeout + 60
         print("Start to sleep ... ")
         time.sleep(sleepTime)
         self.current_time()
-        sleepTime = self.current_time() + 10
-        print(sleepTime)
+       
 
 
 if __name__ == '__main__':
