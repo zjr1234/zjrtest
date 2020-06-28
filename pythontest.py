@@ -1,2 +1,2 @@
 import sys 
-print "输出：", sys.argv[1] 
+print "输出：", sys.argv[0] 
