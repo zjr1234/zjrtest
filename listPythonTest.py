@@ -4,8 +4,8 @@ from pathlib import Path
 
 
 def main(args):
-    arg1 = args[0][0][arg1]
-    arg2 = args[0][0][arg2]
+    arg1 = args[0][0]['arg1']
+    arg2 = args[0][0]['arg2']
     parser = argparse.ArgumentParser(description='Returns sum/minus of two arguments')
     parser.add_argument("--arg1", type=int, required=True)
     parser.add_argument("--arg2", type=int, required=True)
