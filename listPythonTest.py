@@ -6,11 +6,10 @@ from pathlib import Path
 def main(args):
     parser = argparse.ArgumentParser(description='Returns sum/minus of two arguments')
     parser.add_argument("--list_arg", type=list, required=True)
-    print(args.list_arg[0][0]["arg1"])
     parser.add_argument("--sum", type=str, required=True)
     parser.add_argument("--minus", type=str, required=True)
     args = parser.parse_args(args)
-
+    print(args.list_arg[0][0]["arg1"])
     Path(args.sum).parent.mkdir(parents=True, exist_ok=True)
     with open(args.sum, 'w') as sum_path:
         sum_path.write('{}'.format(args.list_arg[0][0]["arg1"] + args.list_arg[0][0]["arg2"]))
