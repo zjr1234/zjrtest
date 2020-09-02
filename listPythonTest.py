@@ -11,11 +11,11 @@ def main(args):
     args = parser.parse_args(args)
     Path(args.sum).parent.mkdir(parents=True, exist_ok=True)
     with open(args.sum, 'w') as sum_path:
-        sum_path.write('{}'.format(args.args[0][0][arg1] + args.args[0][0][arg2]))
+        sum_path.write('{}'.format(args.list_arg[0][0][arg1] + args.list_arg[0][0][arg2]))
         
     Path(args.minus).parent.mkdir(parents=True, exist_ok=True)
     with open(args.minus, 'w') as minus_path:
-        minus_path.write('{}'.format(args.args[0][0][arg1] - args.args[0][0][arg2]))
+        minus_path.write('{}'.format(args.list_arg[0][0][arg1] - args.list_arg[0][0][arg2]))
 
 
 if __name__ == '__main__':
