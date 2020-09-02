@@ -11,7 +11,7 @@ def main(args):
     args = parser.parse_args(args)
     Path(args.sum).parent.mkdir(parents=True, exist_ok=True)
     with open(args.sum, 'w') as sum_path:
-        sum_path.write('{}'.format(args.list_arg["arg1"] + args.list_arg["arg2"]))
+        sum_path.write('{}'.format(args.list_arg[arg1] + args.list_arg[arg2]))
         
     Path(args.minus).parent.mkdir(parents=True, exist_ok=True)
     with open(args.minus, 'w') as minus_path:
