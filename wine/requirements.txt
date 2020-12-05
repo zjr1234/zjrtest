@@ -3,3 +3,5 @@ numpy
 pandas
 boto3
 tensorflow
+grpcio==1.27.2
+
