@@ -2,6 +2,6 @@ sklearn
 numpy
 pandas
 boto3
-tensorflow
+tensorflow --no cache dir
 grpcio==1.27.2
 
