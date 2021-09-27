@@ -1,7 +1,4 @@
-sklearn
-numpy
 pandas
-boto3
-tensorflow
-grpcio==1.27.2
-
+numpy
+sklearn
+mlflow==1.18.0
