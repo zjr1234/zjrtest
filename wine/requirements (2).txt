@@ -1,0 +1,4 @@
+pandas 
+numpy 
+sklearn 
+mlflow==1.8.0 
