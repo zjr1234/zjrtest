@@ -1,0 +1,11 @@
+[
+  {
+    "time": "2022-09-15T10:23:07Z",
+    "predDemand": 17056.400390625,
+    "predFireadap": 3695.3000488281,
+    "predFiremin": 6279.240234375,
+    "predHydro": 6087.1499023438,
+    "predPrice": 300,
+    "predRenew": 3877.5
+  }
+]
