@@ -2,3 +2,4 @@ pandas
 numpy
 sklearn
 mlflow==1.18.0
+scikit-learn==1.1.2
