@@ -1,4 +1,4 @@
 pandas
 numpy
-sklearn
+scikit-learn==1.1.2
 mlflow==1.18.0
